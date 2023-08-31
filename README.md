@@ -1,1 +1,3 @@
-# Kuai-Dian-Chu-Qu-Wan
+# JourneyRightNow - 快点出去玩 🚀
+
+家人们快来更新旅游攻略吧，万一有一天真能一起出去玩呢🥰 
