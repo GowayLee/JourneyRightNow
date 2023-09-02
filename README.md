@@ -1,5 +1,4 @@
-家人们快来更新旅游攻略吧，万一有一天真能一起出去玩呢🥰 
-
+家人们快来更新旅游攻略吧，万一有一天真能一起出去玩呢🥰  
 在一切开始之前，请先阅读这份指南🤤
   
 #  关于JourneyRightNow 🚀
@@ -24,27 +23,27 @@ JourneyRightNow是一个公开的（到目前为止）共享文档，供大家�
 &nbsp;
   
 #  提交步骤 (By Goway Lee😽)
+
 ## 在线提交
 您可以直接在GitHub上编辑文档内容（点击✏符号）、创建新文档（new）、上传文件。这是一种十分便捷常用的方法，适用于小规模编辑。
 
-如果您希望移动文件、创建文件夹、删除文件等，就必须将仓库本地化操作，下面的教程将教你怎么做。
-
+如果您希望移动文件、创建文件夹、删除文件等，就必须将仓库本地化操作，下面的教程将教你怎么做。  
 &nbsp;
-  
 ##  安装Git
   
-  前往 <http://git-scm.com> 下载git的安装包
+  前往 <http://git-scm.com> 下载git的安装包  
   
-  ![](GitNote/Img/capture_20230901230901739.bmp?0.9009613736574791 )  
+  ![](GitNote/Img/capture_20230901230901739.bmp?0.9009613736574791 )    
   
-  在运行时注意该选项选择`Visual Studio Code` 这将方便后续的文本编辑（如果没有VSCode，也可以选择用默认的Vim）
+  在运行时注意该选项选择`Visual Studio Code` 这将方便后续的文本编辑（如果没有VSCode，也可以选择用默认的Vim）  
   
-  ![](GitNote/Img/capture_20230901230807024.bmp?0.9212556296240824 )  
+  ![](GitNote/Img/capture_20230901230807024.bmp?0.9212556296240824 )    
   
-  其余选项均为默认，一路左键。
-  安装完成后，选择一个空文件夹并右键，会有 `Open Git GUI here` & `Open Git Bash here` 的选项，我们一般选用 `Open Git Bash here` ，下文也以此为例。
+  其余选项均为默认，一路左键。  
   
-  ![](GitNote/Img/2023-09-01%20231440.png?0.3124137234559692 )  
+  安装完成后，选择一个空文件夹并右键，会有 `Open Git GUI here` & `Open Git Bash here` 的选项，我们一般选用 `Open Git Bash here` ，下文也以此为
+  
+  ![](GitNote/Img/2023-09-01%20231440.png?0.3124137234559692 )    
 
 &nbsp;
 ##  安装Github桌面端
@@ -230,11 +229,27 @@ Typora、GoodNote、OneNote和Notion等笔记软件也几乎都支持markdown。
 如果要为文档添加格式，需要用到简单的markdown语法。
 
 &nbsp;
+## GitHub Markdown 规范（重要❗）
+如果您对语法还不熟悉，可以先看后一部分（基本语法）  
+
+### 关于换行
+GitHub 的换行，在 Windows 环境下是` 两个空格+回车 `，或直接空一行。**单独的一个回车不会渲染为换行。**  
+对于列表、标题来说，只要有前导符号（` + `` - `` * `` # `等），只需要一个回车即可。
+
+### 关于空格
+- GitHub Markdown 规范建议在中英文转换处加空格，如：你好，这里是 JourneyRightNow ！
+- 在行内代码的开头结尾，GitHub Markdown 规范也建议加空格：` print("markdown") `
+- 在括号前建议加空格
+- 在emoji前建议加空格
+
+> 汉学家称这个空格为「盘古之白」，因为它劈开了全角字和半角字之间的混沌。另有研究显示，打字的时候不喜欢在中文和英文之间加空格的人，感情路都走得很辛苦，有七成的比例会在 34 岁的时候跟自己不爱的人结婚，而其余三成的人最后只能把遗产留给自己的猫。毕竟爱情跟书写都需要适时地留白。（<https://github.com/vinta/pangu.js#readme>）
+
+
 ##  基本语法
   
 ###  标题
   
-在标题文字前加#即可（空格不能省略）：
+在标题文字前加 # 即可（空格不能省略）：
 ```markdown
 # 这是一级标题
 ## 这是二级标题
@@ -255,7 +270,7 @@ Typora、GoodNote、OneNote和Notion等笔记软件也几乎都支持markdown。
 &nbsp;
 ###  斜体
   
-把文字左右分别用一个*号包起来：
+把文字左右分别用一个 * 号包起来：
 ```markdown
 *倾斜的文字*
 ```
@@ -267,12 +282,13 @@ Typora、GoodNote、OneNote和Notion等笔记软件也几乎都支持markdown。
 &nbsp;
 ###  换行
   
-正常换行用回车键即可。但是有时需要连空多行，markdown只会执行一个换行。这时需要用到`&nbsp;`
+正常换行用回车键即可。但是有时需要连空多行，markdown 只会执行一个换行。这时需要用到` &nbsp; `  
+注意是英文的分号，而且这个代码需要单独成行。请注意 GitHub Markdown 标准（见上）的有效换行，“单独成行” 是建立在有效换行的基础上的。
 
 &nbsp;
 ###  删除线
   
-要加删除线的文字左右分别用两个~~号包起来：
+要加删除线的文字左右分别用两个 ~~ 号包起来：
 ```markdown
 ~~要删除的文字~~
 ```
@@ -295,7 +311,7 @@ Typora、GoodNote、OneNote和Notion等笔记软件也几乎都支持markdown。
 &nbsp;
 ###  列表
   
-前导+、-、*均可。列表分级用tab。
+前导 +、-、* 均可。列表分级用 tab。
 ```markdown
 + 这是一级列表
     + 这是二级列表
@@ -322,7 +338,6 @@ Typora、GoodNote、OneNote和Notion等笔记软件也几乎都支持markdown。
 &nbsp;
 ###  表格
   
-  
 ```markdown
 |表头|表头|表头|
 |---|---|---|
@@ -344,16 +359,17 @@ Typora、GoodNote、OneNote和Notion等笔记软件也几乎都支持markdown。
 &nbsp;
 ###  Latex公式
   
-markdown支持内嵌latex公式。
-> 所有的Latex语法都可见于https://www.cnblogs.com/1024th/p/11623258.html
-  
-公式内容用两个<img src="https://latex.codecogs.com/gif.latex?包起来：
-```markdown"/>牛顿第二定律：F=\frac{\text{d}p}{\text{d}t}<img src="https://latex.codecogs.com/gif.latex?```
-效果就是"/>牛顿第二定律：F=\frac{\text{d}p}{\text{d}t}<img src="https://latex.codecogs.com/gif.latex?如果要求公式单独成行，就要用两个&lt;p%20align=&quot;center&quot;&gt;&lt;img%20src=&quot;https://latex.codecogs.com/gif.latex?"/>包起来：
-```markdown"/></p>  
-牛顿第二定律：F=\frac{\text{d}p}{\text{d}t}<p align="center"><img src="https://latex.codecogs.com/gif.latex?```
-效果就是："/></p>  
- 牛顿第二定律：F=\frac{\text{d}p}{\text{d}t} $$
+markdown支持内嵌 latex 公式。
+> 所有的 Latex 语法都可见于 <https://www.cnblogs.com/1024th/p/11623258.html>
+
+如果公式在行内，就用$包起来即可：` $f=ma$ `
+
+如果要求公式单独成行，就要用两个&包起来：
+```markdown
+$$ 牛顿第二定律：F=ma $$
+```
+效果就是：
+ $$ 牛顿第二定律：F=\frac{\text{d}p}{\text{d}t} $$
 
 &nbsp;
 ###  分割线
